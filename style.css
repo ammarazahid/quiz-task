@@ -1,0 +1,56 @@
+/* body{
+   background-image: url(images/image-2.png);
+   background-repeat: no-repeat;
+} */
+
+#main{
+    position: absolute;
+}
+
+#background{
+    position: relative;
+}
+
+
+
+
+
+.labels{
+    display: block;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.quiz{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 30px;
+    margin: 30px;
+    display: block;
+    width: 50%;
+}
+
+h1, p{
+    text-align: center;
+}
+
+
+
+#All-questions{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+h1{
+    font-size: -webkit-xxx-large;
+    font-weight: bold;
+}
+
+p{
+    font-size: x-large;
+    font-weight: 500;
+}
