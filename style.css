@@ -1,58 +1,62 @@
 body{
    background-image: url(images/background-1.png);
+   opacity: 1;
    background-repeat: no-repeat;
    background-size: cover;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
 }
-
+/* 
 #main{
     position: absolute;
-}
-
+} */
+/* 
 #background{
     position: relative;
-}
+} */
 
 #one-q{
-    background-image: url(images/image3.png);
+    background-image: url(images/one-img.png);
     background-size: cover;
+    opacity: 0.9;
 }
 
 #two-q{
-    background-image: url(images/images4.png);
+    background-image: url(images/two-img.png);
     background-size: cover;
+    opacity: 0.9;
 
 }
 
 #three-q{
-    background-image: url(images/image5.png);
+    background-image: url(images/three-img.png);
+    opacity: 0.9;
     background-size: cover;
 }
 
 #four-q{
-    background-image: url(images/image6.png);
+    background-image: url(images/four-img.png);
     background-size: cover;
-
+    opacity: 0.9;
 }
 
 #five-q{
-    background-image: url(images/image-2.png);
+    background-image: url(images/five-img.png);
     background-size: cover;
-
+    opacity: 0.9;
 }
 
 
 .labels{
     display: block;
     margin: 10px;
-    font-size: larger;
+    font-size: x-large;
     font-weight: bold;
 }
 
 .quiz{
-    border: 2px solid black;
+    border: 3px solid black;
     width: fit-content;
     padding: 30px;
     margin: 30px;
@@ -98,4 +102,9 @@ p{
     display: flex;
     justify-content: center;
     margin: 0 0 20px 0;
+}
+
+input{
+    font-size: larger;
+    font-weight: bold;
 }
