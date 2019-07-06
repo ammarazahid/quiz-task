@@ -1,7 +1,11 @@
-/* body{
-   background-image: url(images/image-2.png);
+body{
+   background-image: url(images/background-1.png);
    background-repeat: no-repeat;
-} */
+   background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
 
 #main{
     position: absolute;
@@ -11,8 +15,33 @@
     position: relative;
 }
 
+#one-q{
+    background-image: url(images/image3.png);
+    background-size: cover;
+}
 
+#two-q{
+    background-image: url(images/images4.png);
+    background-size: cover;
 
+}
+
+#three-q{
+    background-image: url(images/image5.png);
+    background-size: cover;
+}
+
+#four-q{
+    background-image: url(images/image6.png);
+    background-size: cover;
+
+}
+
+#five-q{
+    background-image: url(images/image-2.png);
+    background-size: cover;
+
+}
 
 
 .labels{
@@ -53,4 +82,20 @@ h1{
 p{
     font-size: x-large;
     font-weight: 500;
+}
+
+#submit{
+    padding: 10px 30px;
+    font-size: x-large;
+    font-weight: 700;
+    color: teal;
+    background-color: paleturquoise;
+    border: none;
+    border-radius: 4px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0;
 }
