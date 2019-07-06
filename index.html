@@ -17,7 +17,7 @@
             <label class="labels">
                 Who is the First Governer Journal of <i>Pakistan</i>?
             </label>
-            <input id="input" type="radio">Quaid-e-Azam<br>
+            <input id="input" type="radio" onclick="quidScore()" class="quideazam">Quaid-e-Azam<br>
             <input id="input" type="radio">Iskandar Mirza<br>
             <input id="input" type="radio">Journal Yahya Khan<br>
         </div>
@@ -25,7 +25,7 @@
             <label class="labels">
                 How many provinces are there in <i>pakistan</i>?
             </label>
-            <input id="input" type="radio">Four<br>
+            <input id="input" type="radio" class="four" onclick="fourScore()">Four<br>
             <input id="input" type="radio">Seven<br>
             <input id="input" type="radio">Three<br>
         </div>
@@ -34,14 +34,14 @@
                 Which country in <i>Pakistan</i> is known as city of light?
             </label>
             <input id="input" type="radio">Islamabad<br>
-            <input id="input" type="radio">Karachi<br>
+            <input id="input" type="radio" class="karachi" onclick="karachiScore()">Karachi<br>
             <input id="input" type="radio">Lahore<br>
         </div>
         <div id="four-q" class="quiz">
             <label class="labels">
                 Which <i>fruit</i> is known as the king of fruit?
             </label>
-            <input id="input" type="radio">Mango<br>
+            <input id="input" type="radio" class="mango" onclick="mangoScore()">Mango<br>
             <input id="input" type="radio">Apple<br>
             <input id="input" type="radio">Banana<br>
         </div>
@@ -51,11 +51,11 @@
             </label>
             <input id="input" type="radio">Liaqat Ali khan<br>
             <input id="input" type="radio">Allama Iqbal<br>
-            <input id="input" type="radio">Sir Syed Ahmed Khan<br>
+            <input id="input" type="radio" class="jinnah" onclick="jinnahScore()">Muhammad Ali Jinnah<br>
         </div>
     </div>
     <div class="button">
-    <button id="submit">Submit</button>
+    <button id="submit" onclick="check()">Submit</button>
     </div>
     </div>
     <script src="script.js"></script>
